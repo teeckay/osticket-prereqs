@@ -26,29 +26,56 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - HeidiSQL
 - osTicket
 
+
+
 <h2>Installation Steps</h2>
-![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/58c262eb-7bb0-4d9e-b86d-2ec9f191a6fe)
+I begin by making a Windows virtual machine in Azure to use to host osTicket and its prerequisites. I then logged into the virtual machine and began installing the prerequisites for osTicket.
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/2bc3fda4-b9c8-466e-bb8b-5064e49adbe9)
+
 
 <p>
+Next, I Installed IIS- Internet information services as osTicket will need to use it on the browser.I then Confirmed IIS was installed by browsing to 127.0.0.1 to get the below confirmation webpage.
 
 </p>
-<p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
-</p>
-<br />
+  ![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/9bc3b242-91df-4eb7-b832-52a47635a979)
+
+
+Next I installed PHP Manager for IIS for a convenient and centralized way to configure and manage PHP settings for web applications hosted on IIS.
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/5b0885ea-6ae2-4d1a-8e6e-9b074b5b586e)
+
+Next I Installed the IIS rewrite module to enable URL rewriting and redirection within IIS.
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/013a77ac-ca32-487e-bd5f-bf8875a5e689)
+
+Next i installed MySQL server to store and manage data for the osTicket helpdesk and ticketing system including ticket information, user details, settings, and more. 
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/89e42209-7c65-4e1d-ad4f-708aec90f7a9)
+
+ Next, I Registered PHP from within IIS to configure the web server to properly handle PHP scripts and enable execution of the osTicket application; essentially configuring IIS to understand and process PHP files. 
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/d2c4afd6-62f7-4269-a7c6-f5e99fecb2ac)
+ 
+Next, I installed osTicket and enabled extensions I saw fit to have for my ticketing system like the php_imap.dll extension to aid in email integration, ticket creation and email parsing.
+
+I had a Successful osTicket installation and just had to remove write-access to the ost-config.php file as a security measure. Avoiding modifications or tampering with configuration settings.
+
+![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/5508982b-12c6-4b9b-8a93-920099a962c8)
+
+Next I was able to Successfully  login to the osTicket ticketing system and began working on the post-installation setup.
+
+
+
+
+
+
+
+
+
+
+
+
+
