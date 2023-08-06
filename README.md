@@ -29,7 +29,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
+<p>
 I begin by making a Windows virtual machine in Azure to use to host osTicket and its prerequisites. I then logged into the virtual machine and began installing the prerequisites for osTicket.
+</p>
 
 ![image](https://github.com/teeckay/osticket-prereqs/assets/64244011/2bc3fda4-b9c8-466e-bb8b-5064e49adbe9)
 
